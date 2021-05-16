@@ -17,6 +17,7 @@ The following additional resources are available:
 - The [research paper](https://papers.mathyvanhoef.com/usenix2021.pdf) published at USENIX Security.
 - Example [network captures](example-pcaps/) illustrating some of the vulnerabilities.
 - A [live USB image](#id-live-image) with this tool and modified drivers pre-installed.
+- A list of [known advisories](ADVISORIES.md) from companies
 
 See the [change log](#id-change-log) for a detailed overview of updates to the tool made since 11 August 2020.
 This change log also contains information on which version of hostap the FragAttacks tool is based on.
@@ -900,7 +901,7 @@ more reliably when used natively. When using a VM, I recommend to configure the 
 controller, since that appeared more stable (at least with VirtualBox).
 
 In recent kernels there was a ([now fixed](https://www.spinics.net/lists/linux-wireless/msg200825.html))
-regression with the `ath9k_htc` driver causing it not te work. Simply use an up-to-date kernel or our patched
+regression with the `ath9k_htc` driver causing it not to work. Simply use an up-to-date kernel or our patched
 drivers to avoid this issue.
 
 #### AWUS036ACM
